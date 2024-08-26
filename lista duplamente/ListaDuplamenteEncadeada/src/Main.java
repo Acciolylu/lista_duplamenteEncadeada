@@ -30,6 +30,27 @@ public class Main {
         
         ListaNomes.imprimir();
 
+        System.out.println("Qual nome deseja adicionar na lista? ");
+        String nome = scanner.nextLine();
+        System.out.println("Em qual posição deseja adicionar? ");
+        int pos = scanner.nextInt();
+        ListaNomes.adicionarPosicao(pos, nome);
+
+        ListaNomes.imprimir();
+
+        ListaNomes.removerInicio();
+        ListaNomes.imprimir();
+
+        ListaNomes.removerFim();
+        ListaNomes.imprimir();
+
+        System.out.println("Qual posição deseja remover? ");
+        int n = scanner.nextInt();
+
+        ListaNomes.removerPosicao(n);
+
+        ListaNomes.imprimir();
+
     }
     
   
