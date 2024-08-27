@@ -38,11 +38,17 @@ public class Main {
 
         ListaNomes.imprimir();
 
+        System.out.println("--------------------------- ");
+
         ListaNomes.removerInicio();
         ListaNomes.imprimir();
 
+        System.out.println("--------------------------- "); 
+
         ListaNomes.removerFim();
         ListaNomes.imprimir();
+
+        System.out.println("--------------------------- ");
 
         System.out.println("Qual posição deseja remover? ");
         int n = scanner.nextInt();
